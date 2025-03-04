@@ -43,9 +43,9 @@ class Customer:
             f"Date: {format_time}\n"
             f"Thanks, {self.name}, for your purchase!\n"
             f"You have bought:\n"  # noqa E231
-            f"{self.product_cart["milk"]} milks for {milk:.10g} dollars\n"  # noqa E231
-            f"{self.product_cart["bread"]} breads for {bread:.10g} dollars\n"  # noqa E231
-            f"{self.product_cart["butter"]} butters for {but:.10g} dollars\n"  # noqa E231
+            f"{self.product_cart['milk']} milks for {milk:.10g} dollars\n"  # noqa E231
+            f"{self.product_cart['bread']} breads for {bread:.10g} dollars\n"  # noqa E231
+            f"{self.product_cart['butter']} butters for {but:.10g} dollars\n"  # noqa E231
             f"Total cost is {milk + bread + but:.10g} dollars\n"  # noqa E231
             f"See you again!"
         )
